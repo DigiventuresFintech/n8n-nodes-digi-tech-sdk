@@ -18,7 +18,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc && npm run copy-icons",
-    "copy-icons": "cp nodes/DigiTechSdk/digi-tech.svg dist/nodes/DigiTechSdk/digi-tech.svg",
+    "copy-icons": "cp nodes/DigiTechSdk/digi-tech.png dist/nodes/DigiTechSdk/digi-tech.png",
     "dev": "tsc --watch",
     "prepublishOnly": "npm run build",
     "lint": "eslint nodes credentials --ext .ts",
