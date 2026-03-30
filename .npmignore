@@ -1,0 +1,19 @@
+# Source TypeScript (only ship compiled dist/)
+*.ts
+!dist/**
+
+# Dev config
+tsconfig.json
+.eslintrc*
+.prettierrc*
+
+# Node modules
+node_modules/
+
+# Git
+.git/
+.gitignore
+
+# Misc
+*.map
+.DS_Store
